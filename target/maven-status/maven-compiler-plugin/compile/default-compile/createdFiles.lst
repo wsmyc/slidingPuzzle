@@ -1,0 +1,10 @@
+com\slidingpuzzle\view\PuzzleView.class
+com\slidingpuzzle\model\PuzzleConfiguration.class
+com\slidingpuzzle\view\ScoreView.class
+com\slidingpuzzle\view\GameView.class
+com\slidingpuzzle\controller\ScoreController.class
+com\slidingpuzzle\model\Score.class
+com\slidingpuzzle\controller\GameController.class
+com\slidingpuzzle\model\Puzzle.class
+com\slidingpuzzle\controller\GameController$1.class
+com\slidingpuzzle\Main.class

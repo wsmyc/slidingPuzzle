@@ -11,22 +11,21 @@ import javafx.stage.Stage;
  */
 public class Main extends Application {
 
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        // Load the main game view
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/game.fxml"));
-        Parent root = loader.load();
-        
-        // Set up the scene
-        Scene scene = new Scene(root, 600, 700);
-        scene.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());
-        
-        // Configure and show the stage
-        primaryStage.setTitle("Sliding Puzzle Game");
-        primaryStage.setScene(scene);
-        primaryStage.setResizable(false);
-        primaryStage.show();
-    }
+ @Override
+public void start(Stage stage) throws Exception {
+    // Charge game.fxml dans com/slidingpuzzle
+    FXMLLoader loader = new FXMLLoader(
+        Main.class.getResource("/com/slidingpuzzle/game.fxml")
+    );
+    Scene scene = new Scene(loader.load());
+    // Charge le CSS si tu en as besoin
+    scene.getStylesheets().add(
+        Main.class.getResource("/com/slidingpuzzle/game.css").toExternalForm()
+    );
+    stage.setScene(scene);
+    stage.setTitle("Sliding Puzzle");
+    stage.show();
+}
 
     /**
      * Main method to launch the application.
