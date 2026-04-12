@@ -11,6 +11,12 @@ A modern, interactive 3x3 sliding puzzle game built with JavaFX. Features multip
 
 This is a classic sliding puzzle (8-puzzle) implementation where players rearrange numbered tiles on a 3x3 grid to achieve the correct order. The game features a clean JavaFX interface, multiple starting configurations, move counting, scoring system, and persistent high score storage.
 
+## Screenshot
+
+![Sliding Puzzle Game UI](sandbox:///mnt/kimi/upload/Capture d'écran (78).png)
+
+*The game interface showing a 3x3 puzzle grid with numbered tiles, move counter, score display, best score tracking, timer, and configuration selector.*
+
 ## Features
 
 ### Core Gameplay
@@ -124,7 +130,7 @@ mvn clean javafx:run
 ## How to Play
 
 1. **Start the Game**: Launch the application to see the default puzzle configuration
-2. **Move Tiles**: Click any tile adjacent to the empty (black) space to slide it
+2. **Move Tiles**: Click any tile adjacent to the empty (dark) space to slide it
 3. **Goal**: Arrange tiles in order: 1-2-3 on top row, 4-5-6 middle, 7-8 bottom (empty at bottom-right)
 4. **Track Progress**: Watch your moves, score, and time in the top panel
 5. **Try Configurations**: Use the dropdown to select different starting layouts
