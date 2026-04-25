@@ -13,7 +13,7 @@ This is a classic sliding puzzle (8-puzzle) implementation where players rearran
 
 ## Screenshot
 
-![Sliding Puzzle Game UI](sandbox:///mnt/kimi/upload/Capture d'écran (78).png)
+
 
 *The game interface showing a 3x3 puzzle grid with numbered tiles, move counter, score display, best score tracking, timer, and configuration selector.*
 
