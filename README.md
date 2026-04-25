@@ -12,7 +12,7 @@ A modern, interactive 3x3 sliding puzzle game built with JavaFX. Features multip
 This is a classic sliding puzzle (8-puzzle) implementation where players rearrange numbered tiles on a 3x3 grid to achieve the correct order. The game features a clean JavaFX interface, multiple starting configurations, move counting, scoring system, and persistent high score storage.
 
 ## Screenshot
-
+![image alt](https://github.com/wsmyc/slidingPuzzle/blob/9072383a8a7e26bb76c1269e276d75e57b914203/Capture%20d%E2%80%99%C3%A9cran%20(78).png)
 
 
 *The game interface showing a 3x3 puzzle grid with numbered tiles, move counter, score display, best score tracking, timer, and configuration selector.*
